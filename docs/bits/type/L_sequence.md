@@ -4,12 +4,12 @@ An ordered list of values of a domain.
 
 Can be defined using 
 ``` sequence (attributes) of <domain>```
-The sequence must be bounded, so need a [size](https://github.com/conjure-cp/conjure/blob/main/docs/bits/attribute/L_size.md) or [maxSize](https://github.com/conjure-cp/conjure/blob/main/docs/bits/attribute/L_maxSize.md) attribute.
+The sequence must be bounded, so needs a [size](https://github.com/conjure-cp/conjure/blob/main/docs/bits/attribute/L_size.md) or [maxSize](https://github.com/conjure-cp/conjure/blob/main/docs/bits/attribute/L_maxSize.md) attribute.
 
 Can also be explicitly defined by a list of values in round brackets as:
 ```letting x be sequence (1,2,5)```
 
-You can refer to individual values of a sequence using it's index, which starts at one. The first element of a sequence, ```s``` is referred to be ```s(1)```.
+You can refer to individual values of a sequence using its index, which starts at one. The first element of a sequence, ```s``` is referred to as ```s(1)```.
 
 Sequences with attributes are treated like a [function](https://github.com/conjure-cp/conjure/blob/main/docs/bits/type/function.md), mapping the index to the corresponding value.
 Sequences can have
